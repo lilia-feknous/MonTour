@@ -1,0 +1,143 @@
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+.navbar {
+	background-color: skyblue;
+}
+  
+.navbar-nav a {
+	font-family: poppins;
+	font-weight: normal;
+}
+  
+.navbar-nav {
+	text-align: center;
+	padding-left:  600px;
+	margin-left: 250px;
+}
+  
+  
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: rgb(15, 15, 15);
+}
+  
+#search-box {
+	width: 220px;
+}
+  
+#search-btn {
+	height: 38px;
+	width: 38px;
+	background-image: url(search.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+  
+.dropdown-menu {
+	font-size: 15px;
+}
+  
+.container {
+	margin: 20px auto;
+	margin-right: 50px;
+	width: 200px;
+	background: whitesmoke;
+	padding: 0;
+	border-radius: 7px;
+}
+.search-box {
+	background: rgb(158, 157, 157);
+	padding: 25px 23px;
+}
+.search-box input-wrapper {
+	  background: #fff;
+	  border-radius: 60px;
+}
+.search-box input-wrapper i {
+		font-style: bold;
+		margin-left: 8px;
+		 float: middle;
+		vertical-align: right;
+}
+  
+input {
+	border: none;
+	border-radius: 30px;
+	width: 50%;
+}
+.input::placeholder {
+	  color: #e3e3e3;
+	  font-weight: 300;
+	  margin-left: 60px;
+}
+input:focus {
+	  outline: none;
+}
+.profile-image {
+	width: 50px;
+	height: 50px;
+	border-radius: 40px;
+  }
+.friend-drawer {
+	padding: 10px 15px;
+	display: flex;
+	vertical-align: center;
+	background: #fff;
+	transition: .3s ease;
+  }
+  .friend-drawer--grey{
+	  background: skyblue;
+	}
+	
+.friend-drawer--grey text {
+	  margin-left: 12px;
+	  width: 100%;
+  }
+  .friend-drawer--grey text h6 {
+		margin-top: 6px;
+		margin-bottom: 0;
+	  }  
+.friend-drawer--grey text p {
+		margin: 0;
+ }
+  
+.text span{
+	  color: skyblue;
+	}
+.text p{
+	font-size: 20px;
+	color: #000;
+
+}
+	
+.friend-drawer--onhover:hover {
+	  background:#eee;
+	  cursor: pointer;
+}
+hr {
+	margin: 5px auto;
+	width: 100%;
+ }
+  
+
+.space{
+   padding-left: 6px;
+} 
+  .footer-bottom {
+	background:#eee ;
+	width: initial;
+	padding: 20px 0;
+	text-align: center;
+  }
+  
+  .footer-bottom p {
+	font-size: 14px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+  }
